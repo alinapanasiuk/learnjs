@@ -66,3 +66,21 @@ a > b
   : "hello world"
   ? console.log("hi")
   : "";
+
+let a = prompt("Кто там?");
+
+if (a && a.toLowerCase() === "админ") {
+  let b = prompt("Пароль?");
+
+  if (b && b.toLowerCase() === "я главный") {
+    alert("Здравствуйте!");
+  } else if (!b) {
+    alert("Отменено");
+  } else {
+    alert("Неверный пароль");
+  }
+} else if (!a) {
+  alert("Отменено");
+} else {
+  alert("Я вас не знаю");
+}
