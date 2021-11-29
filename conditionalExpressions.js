@@ -23,64 +23,70 @@
 // a + b > 4 ? (result = "Много") : (result = "Мало");
 // console.log(result);
 
-let message, login;
+// let message, login;
 
-if (login == "Сотрудник") {
-  message = "Привет";
-} else if (login == "Директор") {
-  message = "Здравствуйте";
-} else if (login == "") {
-  message = "Нет логина";
-} else {
-  message = "";
-}
+// if (login == "Сотрудник") {
+//   message = "Привет";
+// } else if (login == "Директор") {
+//   message = "Здравствуйте";
+// } else if (login == "") {
+//   message = "Нет логина";
+// } else {
+//   message = "";
+// }
 
-login == "Сотрудник"
-  ? (message = "Привет")
-  : login == "Директор"
-  ? (message = "Здравствуйте")
-  : login == ""
-  ? (message = "Нет логина")
-  : (message = "");
+// login == "Сотрудник"
+//   ? (message = "Привет")
+//   : login == "Директор"
+//   ? (message = "Здравствуйте")
+//   : login == ""
+//   ? (message = "Нет логина")
+//   : (message = "");
 
-let a = 0,
-  b,
-  c;
+// let a = 0,
+//   b,
+//   c;
 
-if (a > b) {
-  console.log("q");
-} else if (c === b) {
-  console.log("w");
-} else if (a) {
-  console.log("e");
-} else if ("hello world") {
-  console.log("hi");
-}
+// if (a > b) {
+//   console.log("q");
+// } else if (c === b) {
+//   console.log("w");
+// } else if (a) {
+//   console.log("e");
+// } else if ("hello world") {
+//   console.log("hi");
+// }
 
-a > b
-  ? console.log("q")
-  : c === b
-  ? console.log("w")
-  : true
-  ? console.log("e")
-  : "hello world"
-  ? console.log("hi")
-  : "";
+// a > b
+//   ? console.log("q")
+//   : c === b
+//   ? console.log("w")
+//   : true
+//   ? console.log("e")
+//   : "hello world"
+//   ? console.log("hi")
+//   : "";
 
-let a = prompt("Кто там?");
+// let a = prompt("Кто там?");
 
-if (a && a.toLowerCase() === "админ") {
-  let b = prompt("Пароль?");
+// if (a && a.toLowerCase() === "админ") {
+//   let b = prompt("Пароль?");
 
-  if (b && b.toLowerCase() === "я главный") {
-    alert("Здравствуйте!");
-  } else if (!b) {
-    alert("Отменено");
-  } else {
-    alert("Неверный пароль");
-  }
-} else if (!a) {
-  alert("Отменено");
-} else {
-  alert("Я вас не знаю");
+//   if (b && b.toLowerCase() === "я главный") {
+//     alert("Здравствуйте!");
+//   } else if (!b) {
+//     alert("Отменено");
+//   } else {
+//     alert("Неверный пароль");
+//   }
+// } else if (!a) {
+//   alert("Отменено");
+// } else {
+//   alert("Я вас не знаю");
+// }
+
+let i = 0;
+while ("Hello") {
+  console.log(i);
+  i++;
 }
